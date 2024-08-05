@@ -39,7 +39,7 @@ const Hero = () => {
                 {images.map((_, index) => (
                     <div
                         key={index}
-                        className={`bg-transparent border-4 rounded-full p-1 ${index === currentIndex ? 'border-white' : 'border-gray-400'}`}
+                        className={`bg-transparent border-2 rounded-full p-1 ${index === currentIndex ? 'border-white' : 'border-gray-400'}`}
                         onClick={() => setCurrentIndex(index)}
                     ></div>
                 ))}
