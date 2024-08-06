@@ -60,12 +60,12 @@ const data = [
 const AccordionItem = ({ item, isOpen, onClick }) => {
     return (
         <div>
-            <div  className="cursor-pointer p-4 border-b border-gray-300 flex justify-between">
-                <h2 className="text-xl font-semibold">{item.label}</h2>
+            <div  className="cursor-pointer p-4 border-b border-gray-300 flex justify-between pb-5">
+                <h2 className="text-xl font-semibold ">{item.label}</h2>
                 <FaAngleDown onClick={onClick}/>
             </div>
             {isOpen && (
-                <div className="p-4">
+                <div className="p-4 font-normal">
                     {item.renderContent()}
                 </div>
             )}

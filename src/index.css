@@ -8,3 +8,10 @@ body{
   font-style: normal;
 }
 
+.service{
+    color: #000;
+}
+
+.home{
+    background-color: rgb(63, 63, 63);
+}

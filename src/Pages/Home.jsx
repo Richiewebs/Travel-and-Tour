@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import Service from './Service';
+import About from './About';
 
 const Home = () => {
    
@@ -8,6 +9,7 @@ const Home = () => {
     <div className='flex flex-col w-full text-white overflow-hidden'>
         <Hero></Hero>
         <Service></Service>
+        <About></About>
     </div>
   )
 }
