@@ -15,3 +15,11 @@ body{
 .home{
     background-color: rgb(63, 63, 63);
 }
+
+.contact{
+    background-color: #313131;
+    display: flex;
+}
+
+
+

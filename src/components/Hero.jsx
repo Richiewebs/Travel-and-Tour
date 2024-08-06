@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import beach1 from '../assets/beach(2).jpg';
 import hiker from '../assets/hiker1.png';
 import night from '../assets/night.jpg';
-import Button from '../components/Button';
+
 
 const Hero = () => {
     const images = [
@@ -25,12 +25,13 @@ const Hero = () => {
     return (
         <div className='flex flex-col  h-screen w-full relative text-white overflow-hidden'>
             <Navbar />
-            <div className='w-full h-4/6'>
+            <div className='w-full h-4/6 '>
                 <img src={images[currentIndex].src} alt="hero" className='bg-cover w-full' />
             </div>
-            <div className='absolute top-52 w-3/4 h-56 p-5 left-24'>
-                <h1 className='absolute text-7xl font-bold'>{images[currentIndex].header}</h1>
-                <p className='top-28 text-2xl absolute'>{images[currentIndex].sub}</p>
+            <div className='w-3/4 absolute z-10 bg-gray-900 opacity-100 ' >
+            <div className='absolute  top-52 w-full h-56 p-5 left-24'>
+                <h1 className='absolute z-20 text-7xl font-bold'>{images[currentIndex].header}</h1>
+                <p className='top-28  z-20 text-2xl absolute'>{images[currentIndex].sub}</p>
                 <div className='absolute top-48'>
                 <button className='border-4  hover:w-64 p-6  text-xl rounded-full border-white bg-transparent'>{images[currentIndex].name}</button>
                 </div>
@@ -44,6 +45,7 @@ const Hero = () => {
                     ></div>
                 ))}
             </div>
+        </div>
         </div>
     );
 }
