@@ -8,7 +8,7 @@ export default {
   theme: {
     color: {
       'black': '#00000',
-      'white': '#fff'
+      'white': '#fffff'
     },
 
     extend: {

@@ -1,14 +1,14 @@
 import React from 'react'
 import contact2 from '../assets/contact1.jpg'
 import Input from '../components/Input'
-import map from '../assets/map.png'
+import Map from '../components/Map'
 
 
 const Contact = () => {
   return (
     <div className='w-full  bg-gray-100 ' style={{color:'black'}}>
         <div className='w-full h-11/12  mb-10' style={{width:'100vw'}}>
-        <img src={map} alt="" srcset="" style={{height: '100%', width:'100%'}} />
+            <Map></Map>
         </div>
         <div className='p-24'>
         <div className='w-full  flex m-auto shadow rounded' class='contact'>
