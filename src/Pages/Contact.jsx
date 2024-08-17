@@ -18,7 +18,7 @@ const Contact = () => {
                 <Input type='text' placeholder='Name ' name='name'></Input>
                 <Input type='email' placeholder='Email' name='email'></Input>
                 <textarea placeholder='Message' className='rounded-lg resize-none text-black p-5 h-64 outline-none border-gray-100 border-4'></textarea>
-                <button className='p-5 bg-black text-lg text-white'>Send</button>
+                <button className='p-5 bg-black text-lg text-white rounded-lg'>Send</button>
             </div>
         </div>
         </div>
