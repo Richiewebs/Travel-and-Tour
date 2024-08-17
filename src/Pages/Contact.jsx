@@ -1,5 +1,4 @@
 import React from 'react'
-import contact2 from '../assets/contact1.jpg'
 import Input from '../components/Input'
 import Map from '../components/Map'
 
@@ -7,20 +6,19 @@ import Map from '../components/Map'
 const Contact = () => {
   return (
     <div className='w-full  bg-gray-100 ' style={{color:'black'}}>
-        <div className='w-full h-11/12  mb-10' style={{width:'100vw'}}>
-            <Map></Map>
-        </div>
+        
         <div className='p-24'>
-        <div className='w-full  flex m-auto shadow rounded' class='contact'>
-            <div className='w-1/2 '>
-                <img src={contact2} alt="" srcset="" style={{height: '100%'}} />
+        <div className='w-full  flex m-auto bg-white shadow rounded-md' class='contact'>
+            <div className='w-1/2  ' style={{height: '100%'}}>
+                <Map></Map>
             </div>
 
             <div className=' w-1/2  h-4/5 flex flex-col space-y-10 p-10 font-medium ' style={{color: 'black'}}>
+              <h1 className='font-semibold text-2xl text-center'>Get in Touch</h1>
                 <Input type='text' placeholder='Name ' name='name'></Input>
                 <Input type='email' placeholder='Email' name='email'></Input>
-                <textarea placeholder='Message' className='resize-none text-white bg-gray-700 p-5 h-64 outline-none border-b-2'></textarea>
-                <button className='p-5 bg-gray-400 text-lg'>Send</button>
+                <textarea placeholder='Message' className='rounded-lg resize-none text-black p-5 h-64 outline-none border-gray-100 border-4'></textarea>
+                <button className='p-5 bg-black text-lg text-white'>Send</button>
             </div>
         </div>
         </div>
