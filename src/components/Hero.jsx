@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
-import beach1 from '../assets/beach(2).jpg';
+import beach1 from '../assets/beach.jpeg';
 import hiker from '../assets/hiker1.png';
 import night from '../assets/night.jpg';
 
